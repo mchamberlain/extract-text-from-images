@@ -9,6 +9,10 @@ packages = [{include = "extract_text_from_images"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+numpy = "^1.24.2"
+opencv-python-headless = "^4.5.4"
+easyocr = "^1.6.2"
+matplotlib = "^3.7.1"
 
 
 [build-system]
